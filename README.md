@@ -6,5 +6,8 @@
 
 ## Build
 - `npm run build`
+### Serve build files
+- install serve https://www.npmjs.com/package/serve
+- go to dist folder and run `serve`
 
 Install Prettier - Code formatter vscode plugin to format files on save. If you don't want to use it, modify content in `.vscode/settings.json`

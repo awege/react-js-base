@@ -1,0 +1,33 @@
+{
+  "name": "jsreactbase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "export NODE_ENV=development && webpack serve --progress --open",
+    "build": "export NODE_ENV=production && webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.11",
+    "@babel/preset-env": "^7.22.10",
+    "@babel/preset-react": "^7.22.5",
+    "babel-loader": "8.1.0",
+    "babel-polyfill": "6.26.0",
+    "clean-webpack-plugin": "3.0.0",
+    "css-loader": "5.0.1",
+    "html-webpack-plugin": "^5.5.3",
+    "prettier": "^2.3.1",
+    "sass": "^1.70.0",
+    "sass-loader": "^14.1.0",
+    "style-loader": "2.0.0",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
