@@ -6,7 +6,7 @@
 
 ## Build
 - `npm run build`
-### Serve build files
+### Serve build files example
 - install serve https://www.npmjs.com/package/serve
 - go to dist folder and run `serve`
 
